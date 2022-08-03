@@ -18,7 +18,7 @@ img {
 
 h2 {
   font-family: 'Roboto Mono', monospace;
-  color: #473F3B;
+  color: rgb(91, 85, 82, 0.5)
   font-size: 25px;
   margin: 25px 0;
   padding: 40px;
