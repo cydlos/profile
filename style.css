@@ -9,20 +9,35 @@ body {
 
 h1{
   font-weight: lighter;
+  margin: 2px 2px 2px 2px;
 }
 
-img {
-  width: 150px;
-  border-radius: 50%;
-}
 
 h2 {
   font-family: 'Roboto Mono', monospace;
   color: rgb(91, 85, 82, 0.5);
   font-size: 22px;
-  margin: 25px 0;
+  margin: 0px 0;
   padding: 40px;
   font-weight: lighter;
+  position: relative;
+  top: 40;
+  text-align: right;
+}
+
+h3 .avatar {
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  top: -115;
+  left: -32;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  font-size: 18px;
 }
 
 div {
@@ -50,7 +65,7 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a {
@@ -73,7 +88,7 @@ a:hover {
   background-color: #BDD1AE;
   border-radius: 8px;
   box-shadow: 0 10px 30px rgb(0 0 0 / 12%);
-  padding: 0px;
+  padding: 18px;
   margin: 0 auto;
 }
 
